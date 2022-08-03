@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp_layout {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(226, 167, 237);
+  border-style: solid;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.result_layout {
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+}
